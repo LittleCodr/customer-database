@@ -48,6 +48,23 @@ X = customers[['Avg. Session Length', 'Time on App', 'Time on Website','Length o
 from sklearn.model_selection import train_test_split
 X_train, X_test, y_train, y_test = train_test_split(X,y,test size = 0.3, random_state = 101)
 
+
+Hey Good Morning, 
+This is to inform you that the college management committee has decided to refund the academic fees on 2nd September from 11:00 AM.
+You Can Collect Your Cheque of 1,29,500 from AB 1 Room 101.
+We are waiting for You.
+
+Prof. Ashish Sharma 
+
+Dean - Academic Affairs
+
+Professor. - Department of CEA
+Institute of Engineering & Technology
+GLA University
+
+Direct +91 -5662-250 965
+ashish.sharma@gla.ac.in
+
 from sklearn.linear_model import LinearRegression
 lm = LinearRegression()
 lm.fit(X_train,y_train)
